@@ -1,4 +1,4 @@
-package entity;
+package com.peterpreneur.springbootexample.domain;
 
 import java.time.LocalDate;
 

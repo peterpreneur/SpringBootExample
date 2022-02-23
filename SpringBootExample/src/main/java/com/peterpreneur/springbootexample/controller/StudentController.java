@@ -1,4 +1,4 @@
-package controller;
+package com.peterpreneur.springbootexample.controller;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import entity.Student;
+import com.peterpreneur.springbootexample.domain.Student;
 
 @RestController
 @RequestMapping(path = "api/v1/student")
